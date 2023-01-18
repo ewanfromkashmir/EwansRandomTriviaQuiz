@@ -1,4 +1,5 @@
-body {
+body 
+{
     background-color: #fff;
     color: #212529;
     font-size: 1rem;
@@ -9,25 +10,29 @@ body {
     font-family: 'Montserrat';
 }
 
-.container {
+.container 
+{
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.table {
+.table 
+{
     display: table;
     margin: 0 auto;
     padding: 15px;
     border-spacing: 0px;
 }
 
-form {
+form 
+{
     display: inline-block;
 }
 
-.header {
+.header 
+{
     background-color: #fc46aa;
     color: #fff;
     margin-bottom: 2rem;
@@ -35,26 +40,31 @@ form {
     text-align: center;
 }
 
-.section {
+.section 
+{
     padding: 0.5rem 2rem 1rem 2rem;
 }
 
-.section:hover {
+.section:hover 
+{
     background-color: #f5f5f5;
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
 
-.free{
+.free
+{
     text-align: center;
 }
 
-h1 {
+h1 
+{
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
     font-weight: 900;
 }
 
-button, input[type="submit"] {
+button, input[type="submit"] 
+{
     background-color: #efedff;
     border: 1px solid transparent;
     border-radius: 0.25rem;
@@ -68,80 +78,28 @@ button, input[type="submit"] {
 }
 
 
-input[type="text"] {
+input[type="text"] 
+{
     line-height: 1.8;
     width: 25%;
 }
 
-input[type="text"]:hover {
+input[type="text"]:hover 
+{
     background-color: #f5f5f5;
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
 
 
-#q1
+#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10, 
+#score1, #score2, #score3
 {
     text-align: center;
 }
 
-#q2
-{
-    text-align: center;
-}
-
-#q3
-{
-    text-align: center;
-}
-
-#q4
-{
-    text-align: center;
-}
-
-#q5
-{
-    text-align: center;
-}
-
-#q6
-{
-    text-align: center;
-}
-
-#q7
-{
-    text-align: center;
-}
-
-#q8
-{
-    text-align: center;
-}
-
-#q9
-{
-    text-align: center;
-}
-
-#q10
-{
-    text-align: center;
-}
-
-#score1
-{
-    text-align: center;
-}
-
-#score2
-{
-    text-align: center;
-}
 
 #score3
 {
-    text-align: center;
     font-weight: bold;
 }
 
