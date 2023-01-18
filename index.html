@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    	<link href="C:\Users\ewanh\Desktop\Computer_Science\CS50\Tests\HTML\Tutorial\Tutorial.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	  	<meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>Trivia!</title>
+        <script src="script.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Ewan's Magnificent Trivia!</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+                <h2>Round 1: Geography </h2>
+				<hr>
+                <h3>1.) Ouagadougou is the capital city of which African country?</h3>
+                <div class="table">
+					<table>
+						<tr>
+							<td><button onclick="incorrectAnswer(event, 1)">Guinea-Bissau</button>
+							<td><button onclick="incorrectAnswer(event, 1)">Cote d'Ivoire</button>
+							<td><button onclick="correctAnswer(event, 1)">Burkina Faso</button>
+							<td><button onclick="incorrectAnswer(event, 1)">Sierra Leone</button>
+						</tr>
+					</table>
+		    	</div>
+		    	<p id="q1"></p>
+                <h3>2.) What is the longest river in Europe?</h3>
+		    	<div class="table">
+   		        	<table>
+ 		            	<tr>
+		                	<td><button onclick="correctAnswer(event, 2)">Volga</button>
+							<td><button onclick="incorrectAnswer(event, 2)">Danube</button>
+							<td><button onclick="incorrectAnswer(event, 2)">Rhine</button>
+							<td><button onclick="incorrectAnswer(event, 2)">Dnipro</button>
+		            	</tr>
+		        	</table>
+		    	</div>
+		    	<p id="q2"></p>
+                <h3>3.) Which of the following countries has the largest population?</h3>
+		    	<div class="table">
+					<table>
+						<tr>
+                		    <td><button onclick="incorrectAnswer(event, 3)">Australia</button>
+                		    <td><button onclick="incorrectAnswer(event, 3)">Canada</button>
+                		    <td><button onclick="incorrectAnswer(event, 3)">New Zealand</button>
+                		    <td><button onclick="correctAnswer(event, 3)">U.K.</button>
+						</tr>
+					</table>
+		    	</div>
+	   	    	<p id="q3"></p>
+                <h3>4.) How many states make up the Federative Republic of Brazil?</h3>
+		    	<div class="table">
+   		        	<table>
+ 		           		<tr>
+                		    <td><button onclick="correctAnswer(event, 4)">26</button>
+                		    <td><button onclick="incorrectAnswer(event, 4)">36</button>
+                		    <td><button onclick="incorrectAnswer(event, 4)">46</button>
+                		    <td><button onclick="incorrectAnswer(event, 4)">56</button>
+			      	</tr>
+		        	</table>
+		    	</div>
+		    	<p id="q4"></p>
+                <h3>5.) Which of the following countries is doubly-landlocked?</h3>
+		    	<div class="table">
+   		        	<table>
+ 		            	<tr>
+                		    <td><button onclick="incorrectAnswer(event, 5)">Kazakhstan</button>
+                		    <td><button onclick="incorrectAnswer(event, 5)">Tajikistan</button>
+                		    <td><button onclick="incorrectAnswer(event, 5)">Turkmenistan</button>
+                		    <td><button onclick="correctAnswer(event, 5)">Uzbekistan</button>
+						</tr>
+					</table>
+		    	</div>
+		    	<p id="q5"></p>
+				<p id="score1"></p>
+            </div>
+            <div class="section">
+                <h2>Round 2: History of Communism</h2>
+                <hr>
+		    	<h3>6.) Who was the penultimate General Secretary of the CPSU?</h3>
+                <div class="free">
+					<input id="answer6" type="text" placeholder="Answer">
+					<button onclick="freeResponseAnswer(event, 6)">Check</button>
+		    	</div>
+				<p id="q6"></p>
+		    	<h3>7.) Excluding Russia, which Soviet Republic was largest in area?</h3>
+		    	<div class="free">
+					<input id="answer7" type="text" placeholder="Answer">
+					<button onclick="freeResponseAnswer(event, 7)">Check</button>
+		    	</div>
+				<p id="q7"></p>
+				<h3>8.) In what year began the Cultural Revolution in China?</h3>
+				<div class="free">
+					<input id="answer8" type="text" placeholder="Answer">
+					<button onclick="freeResponseAnswer(event, 8)">Check</button>
+				</div>
+				<p id="q8"></p>
+		    	<h3>9.) Who married Karl Marx?</h3>
+		    	<div class="free">
+					<input id="answer9" type="text" placeholder="Answer">
+					<button onclick="freeResponseAnswer(event, 9)">Check</button>
+                </div>
+				<p id="q9"></p>
+		    	<h3>10.) Enver Hoxha led the Party of Labour of which country?</h3>
+		    	<div class="free">
+					<input id="answer10" type="text" placeholder="Answer">
+					<button onclick="freeResponseAnswer(event, 10)">Check</button>
+                </div>
+				<p id="q10"></p>
+				<p id="score2"></p>
+				<p id="score3"></p>
+				<p id="thanks"></p>
+            </div>
+        </div>
+    </body>
+</html>
